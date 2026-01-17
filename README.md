@@ -1,16 +1,46 @@
-# flutter_clean_architecture_app
+# flutter_clean_architecture_app using **Riverpod**:
 
-A new Flutter project.
+A production-ready Flutter application demonstrating **Clean Architecture** with **Riverpod** state management. The project focuses on scalability, testability, and clear separation of concerns between presentation, domain, and data layers.
+
+## Architecture
+
+This project follows Clean Architecture:
+
+```
+lib/
+ ├─ presentation/   # UI + Riverpod providers
+ ├─ domain/         # Entities note usecases & repositories
+ ├─ data/           # API, models, repository implementations
+```
+
+## Tech Stack
+
+* Flutter
+* Riverpod (State Management)
+* REST API Integration
+* Repository Pattern
+* Dependency Injection
+* Error Handling
+* Clean Architecture
+
+## Features
+
+* Riverpod-based state management
+* API data fetching with proper error handling
+* Domain-driven use cases
+* Repository abstraction
+* Scalable folder structure
+* Easily testable business logic
+
+## Purpose
+
+This project is built to demonstrate how to structure real-world Flutter applications using Clean Architecture and Riverpod for maintainable and scalable development.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+flutter pub get
+flutter run
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
