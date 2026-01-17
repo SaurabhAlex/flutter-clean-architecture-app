@@ -39,6 +39,7 @@ This project is built to demonstrate how to structure real-world Flutter applica
 ## Getting Started
 
 flutter pub get
+
 flutter run
 
 
