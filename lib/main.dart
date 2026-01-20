@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_clean_architecture_app/presentation/counter_screen.dart';
 import 'package:flutter_clean_architecture_app/presentation/home_page.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyHomePage(title: 'RiverPod State Management'),
+      // home: const MyHomePage(title: 'RiverPod State Management'),
+      home: CounterScreen(),
     );
   }
 }
